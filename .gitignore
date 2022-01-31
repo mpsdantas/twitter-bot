@@ -1,15 +1,19 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+*.code-workspace
 
-# Test binary, built with `go test -c`
-*.test
+# Languages
+node_modules
+package-lock.json
+npm*.log
+yarn*.log
+vendor
+build
+tsconfig.tsbuildinfo
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# OS
+.DS_Store
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# IDE
+.vscode/*
+.vs
+!.vscode/launch.json
+.idea
